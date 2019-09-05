@@ -36,3 +36,37 @@ li.nav-item{
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
 	background: white;
 }
+
+@media(max-width: 576px){
+	*{}
+}
+
+@media(max-width: 576px){
+	a.navbar-brand{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media(max-width: 576px){
+	a.navbar-=link{
+		line-height: 27px;
+		display: inline;
+
+	}
+}
+
+@media(max-width: 576px){
+	li.nav-item{
+		display: inline;
+		float: none;
+	}
+}
+
+@media(max-width: 576px){
+	ul.nav.navbar-nav.float-xs-right{
+		float: none;
+		text-align: center;
+	}
+}
