@@ -68,8 +68,21 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
 
 @media(max-width: 576px){
 	ul.nav.navbar-nav.float-xs-right{
-		float: none;
 		text-align: center;
+		width: 100%;
+		margin-left: 0px;
+		position: relative;
+		padding: 10px 50px;
+		border-top: 1px solid gray;
+		background: white;
+	}
+}
+
+@media(max-width: 576px){
+	.tt img{
+		width: 203px;
+		margin-top: 127px;
+
 	}
 }
 
@@ -92,4 +105,44 @@ body, html{
 	width: 50%;
 	height: 100%;
 	background: #FA5858;
+	z-index: 1;
+}
+
+#avatar{
+	height: 200px;
+	width: 200px;
+}
+
+.tt{
+	z-index: 2;
+	position: relative;
+	padding-top: 20%;
+}
+
+.tt img{
+	border-radius: 50%;
+	margin-bottom: 50px;
+}
+
+.tt h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 22px;
+}
+
+.tt p{
+	color: black;
+	font-size: 16px;
+	line-height: 20px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+a.nurthire.btn.btn-primary{
+	width: 120px;
+	background: black;
+	border: none;
+	border-radius: 5px;
+
 }
