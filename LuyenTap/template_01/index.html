@@ -10,6 +10,8 @@
  	<link rel="stylesheet" href="1.css">
 </head>
 <body >
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0&appId=2352724111606196&autoLogAppEvents=1"></script>
 	<div class="menutop">
  	<nav class="navbar navbar-light bg-faded navbar-fixed-top">
  		<div class="container">
@@ -31,7 +33,7 @@
  				<a class="nav-link" href="#">Lien lac</a>
  			</li>
  			<li class="nav-item">
- 				<a class="nav-link" href="#">Comment</a>
+ 				<a class="nav-link" href="./comment.html">Comment</a>
  			</li>
  		</ul>
  	</ul>
@@ -50,22 +52,20 @@
  		</div>
  	</div><!--het phan khoi tt-->
 
- 	<div class="edu">
- 		<div class="row">
- 			<div class="col-sm-12  tieudeto text-xs-center">
- 				<h1>kinh nghiem va qua trinh hoc</h1>
- 			</div>
- 			<div class="col-sm-4 cot1_3">
- 				
- 			</div>
- 			<div class="col-sm-4 cot2_3">
- 				
- 			</div>
- 			<div class="col-sm-4 cot3_3">
- 				
+ 	<div class="khoicomment">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-sm-12">
+ 					<h1 class="text-xs-center">
+ 						Phan hoi
+ 					</h1>
+
+ 					<div class="commentfb">
+ 						<div class="fb-comments" data-href="https://mailan3003.github.io" data-width="576" data-numposts="5"></div>
+ 					</div>
+ 				</div>
  			</div>
  		</div>
-
  	</div>
 </body>
 </html>
